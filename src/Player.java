@@ -1,16 +1,17 @@
 public class Player {
 
-    public String playername;
-    public int playerguess;
-    public int guesses;
+    public String playerName;
+    public int playerGuess;
+    public int noOfAttempt;
 
 
     public  Player(String name){
-        playername = name;
+        playerName = name;
     }
 
     public void setPlayerguess(int input){
-        playerguess = input;
-        guesses = guesses+1;
+        playerGuess = input;
+
+        noOfAttempt = noOfAttempt+1;
     }
 }

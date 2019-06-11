@@ -1,6 +1,6 @@
 public class Util {
 
-    public static int isInteger( String input, Player player ) {
+    public static int  getInterger( String input, Player player ) {
         try {
 
             int val = Integer.parseInt( input );
